@@ -1,4 +1,4 @@
-# Notepad-DOT-Beta
+# Notepad DOT Beta
 
 ## Latest News
 
