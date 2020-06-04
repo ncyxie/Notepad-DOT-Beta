@@ -4,7 +4,7 @@
 
 **BETA REPOSITORY WAS SUCESSFULLY CREATED!**
 
-**New release is almost done for test!**
+**NEW RELEASE IS ALMOST DONE FOR TEST! :)**
 
 ## Introduction
 
