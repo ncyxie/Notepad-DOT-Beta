@@ -4,6 +4,8 @@
 
 **BETA REPOSITORY WAS SUCESSFULLY CREATED!**
 
+**New release is 
+
 ## Introduction
 
 **Notepad DOT** is an open source, lightweight and very simple text editor.
