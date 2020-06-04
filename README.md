@@ -2,8 +2,6 @@
 
 ## Latest News
 
-**BETA REPOSITORY WAS SUCESSFULLY CREATED!**
-
 **NEW RELEASE IS ALMOST DONE FOR TEST! :)**
 
 ## Introduction
