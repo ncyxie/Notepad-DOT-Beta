@@ -435,5 +435,17 @@ namespace Notepad.Properties {
                 this["noneScroll"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool statusBar {
+            get {
+                return ((bool)(this["statusBar"]));
+            }
+            set {
+                this["statusBar"] = value;
+            }
+        }
     }
 }

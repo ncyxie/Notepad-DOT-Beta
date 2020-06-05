@@ -30,6 +30,10 @@ namespace Notepad
             offToolStripMenuItem.Checked = true;
             hourClockToolStripMenuItem.Checked = false;
             hourClockToolStripMenuItem1.Checked = false;
+            verticalToolStripMenuItem.Checked = false;
+            horizontalToolStripMenuItem.Checked = false;
+            bothToolStripMenuItem.Checked = true;
+            noneToolStripMenuItem.Checked = false;
             offToolStripMenuItem3.Checked = true;
             onToolStripMenuItem2.Checked = false;
             offToolStripMenuItem4.Checked = true;
@@ -67,6 +71,32 @@ namespace Notepad
             statusBarPanel1.BorderStyle = Properties.Settings.Default.statusBarColumns;
             statusBarPanel2.BorderStyle = Properties.Settings.Default.statusBarColumns;
             statusBarPanel3.BorderStyle = Properties.Settings.Default.statusBarColumns;
+
+            onToolStripMenuItem2.Checked = Properties.Settings.Default.statusBar;
+
+            if (onToolStripMenuItem2.Checked == true)
+            {
+                onToolStripMenuItem2.Checked = true;
+                offToolStripMenuItem3.Checked = false;
+                statusBar1.Show();
+                timeToolStripMenuItem.Enabled = true;
+                wordCounterToolStripMenuItem.Enabled = true;
+                characterCounterToolStripMenuItem.Enabled = true;
+                fontToolStripMenuItem2.Enabled = true;
+                columnsToolStripMenuItem.Enabled = true;
+            }
+
+            else
+            {
+                onToolStripMenuItem2.Checked = false;
+                offToolStripMenuItem3.Checked = true;
+                statusBar1.Hide();
+                timeToolStripMenuItem.Enabled = false;
+                wordCounterToolStripMenuItem.Enabled = false;
+                characterCounterToolStripMenuItem.Enabled = false;
+                fontToolStripMenuItem2.Enabled = false;
+                columnsToolStripMenuItem.Enabled = false;
+            }
 
             hourClockToolStripMenuItem.Checked = Properties.Settings.Default.twelveHours;
             hourClockToolStripMenuItem1.Checked = Properties.Settings.Default.twentyFourHours;
@@ -362,6 +392,8 @@ namespace Notepad
             Properties.Settings.Default.statusBarColumns = statusBarPanel1.BorderStyle;
             Properties.Settings.Default.statusBarColumns = statusBarPanel2.BorderStyle;
             Properties.Settings.Default.statusBarColumns = statusBarPanel3.BorderStyle;
+
+            Properties.Settings.Default.statusBar = onToolStripMenuItem2.Checked;
 
             Properties.Settings.Default.twelveHours = hourClockToolStripMenuItem.Checked;
             Properties.Settings.Default.twentyFourHours = hourClockToolStripMenuItem1.Checked;
