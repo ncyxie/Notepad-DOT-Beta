@@ -27,6 +27,9 @@ namespace Notepad
             statusBar1.Panels[1].Text = "";
             statusBar1.Panels[2].Text = "";
 
+            offToolStripMenuItem.Checked = true;
+            hourClockToolStripMenuItem.Checked = false;
+            hourClockToolStripMenuItem1.Checked = false;
             offToolStripMenuItem3.Checked = true;
             onToolStripMenuItem2.Checked = false;
             offToolStripMenuItem4.Checked = true;
@@ -59,6 +62,249 @@ namespace Notepad
             menuStrip1.BackColor = Properties.Settings.Default.menuStripMode;
             menuStrip1.Font = Properties.Settings.Default.menuStripFont;
             menuStrip1.ForeColor = Properties.Settings.Default.menuStripColor;
+            textBox.ScrollBars = Properties.Settings.Default.scrollBars;
+            statusBar1.Font = Properties.Settings.Default.statusBarFont;
+            statusBarPanel1.BorderStyle = Properties.Settings.Default.statusBarColumns;
+            statusBarPanel2.BorderStyle = Properties.Settings.Default.statusBarColumns;
+            statusBarPanel3.BorderStyle = Properties.Settings.Default.statusBarColumns;
+
+            hourClockToolStripMenuItem.Checked = Properties.Settings.Default.twelveHours;
+            hourClockToolStripMenuItem1.Checked = Properties.Settings.Default.twentyFourHours;
+            offToolStripMenuItem.Checked = Properties.Settings.Default.timerOff;
+
+            if (hourClockToolStripMenuItem.Checked == true)
+            {
+                hourClockToolStripMenuItem.Checked = true;
+                hourClockToolStripMenuItem1.Checked = false;
+                offToolStripMenuItem.Checked = false;
+
+                timer1.Start();
+            }
+
+            else if (hourClockToolStripMenuItem1.Checked == true)
+            {
+                hourClockToolStripMenuItem.Checked = false;
+                hourClockToolStripMenuItem1.Checked = true;
+                offToolStripMenuItem.Checked = false;
+
+                timer1.Start();
+            }
+
+            else if (offToolStripMenuItem.Checked == true)
+            {
+                hourClockToolStripMenuItem.Checked = false;
+                hourClockToolStripMenuItem1.Checked = false;
+                offToolStripMenuItem.Checked = true;
+
+                timer1.Stop();
+            }
+
+            onToolStripMenuItem.Checked = Properties.Settings.Default.statusBarWordCounter;
+
+            if (onToolStripMenuItem.Checked == true)
+            {
+                onToolStripMenuItem.Checked = true;
+                offToolStripMenuItem1.Checked = false;
+                textBox.TextChanged += WordCounter;
+            }
+
+            else
+            {
+                onToolStripMenuItem.Checked = false;
+                offToolStripMenuItem1.Checked = true;
+                textBox.TextChanged -= WordCounter;
+            }
+
+            onToolStripMenuItem1.Checked = Properties.Settings.Default.statusBarCharCounter;
+
+            if (onToolStripMenuItem1.Checked == true)
+            {
+                onToolStripMenuItem1.Checked = true;
+                offToolStripMenuItem2.Checked = false;
+                textBox.TextChanged += CharCounter;
+            }
+
+            else
+            {
+                onToolStripMenuItem1.Checked = false;
+                offToolStripMenuItem2.Checked = true;
+                textBox.TextChanged -= CharCounter;
+            }
+
+            onToolStripMenuItem3.Checked = Properties.Settings.Default.columnOn;
+
+            if (onToolStripMenuItem3.Checked == true)
+            {
+                onToolStripMenuItem3.Checked = true;
+                offToolStripMenuItem4.Checked = false;
+            }
+
+            else
+            {
+                onToolStripMenuItem3.Checked = false;
+                offToolStripMenuItem4.Checked = true;
+            }
+
+            lightModeToolStripMenuItem.Checked = Properties.Settings.Default.lightMode;
+            darkModeToolStripMenuItem.Checked = Properties.Settings.Default.darkMode;
+            blueModeToolStripMenuItem.Checked = Properties.Settings.Default.blueMode;
+            pinkModeToolStripMenuItem.Checked = Properties.Settings.Default.pinkMode;
+            oliveModeToolStripMenuItem.Checked = Properties.Settings.Default.oliveMode;
+            colorModeToolStripMenuItem.Checked = Properties.Settings.Default.colorMode;
+            followStripMenuToolStripMenuItem.Checked = Properties.Settings.Default.followStrip;
+
+            if (lightModeToolStripMenuItem.Checked == true)
+            {
+                darkModeToolStripMenuItem.Checked = false;
+                lightModeToolStripMenuItem.Checked = true;
+                blueModeToolStripMenuItem.Checked = false;
+                oliveModeToolStripMenuItem.Checked = false;
+                pinkModeToolStripMenuItem.Checked = false;
+                colorModeToolStripMenuItem.Checked = false;
+                followStripMenuToolStripMenuItem.Checked = false;
+
+            }
+            else if (darkModeToolStripMenuItem.Checked == true)
+            {
+                darkModeToolStripMenuItem.Checked = true;
+                lightModeToolStripMenuItem.Checked = false;
+                blueModeToolStripMenuItem.Checked = false;
+                oliveModeToolStripMenuItem.Checked = false;
+                pinkModeToolStripMenuItem.Checked = false;
+                colorModeToolStripMenuItem.Checked = false;
+                followStripMenuToolStripMenuItem.Checked = false;
+            }
+            else if (blueModeToolStripMenuItem.Checked == true)
+            {
+                darkModeToolStripMenuItem.Checked = false;
+                lightModeToolStripMenuItem.Checked = false;
+                blueModeToolStripMenuItem.Checked = true;
+                oliveModeToolStripMenuItem.Checked = false;
+                pinkModeToolStripMenuItem.Checked = false;
+                colorModeToolStripMenuItem.Checked = false;
+                followStripMenuToolStripMenuItem.Checked = false;
+            }
+            else if (pinkModeToolStripMenuItem.Checked == true)
+            {
+                darkModeToolStripMenuItem.Checked = false;
+                lightModeToolStripMenuItem.Checked = false;
+                blueModeToolStripMenuItem.Checked = false;
+                oliveModeToolStripMenuItem.Checked = false;
+                pinkModeToolStripMenuItem.Checked = true;
+                colorModeToolStripMenuItem.Checked = false;
+                followStripMenuToolStripMenuItem.Checked = false;
+            }
+            else if (oliveModeToolStripMenuItem.Checked == true)
+            {
+                darkModeToolStripMenuItem.Checked = false;
+                lightModeToolStripMenuItem.Checked = false;
+                blueModeToolStripMenuItem.Checked = false;
+                oliveModeToolStripMenuItem.Checked = true;
+                pinkModeToolStripMenuItem.Checked = false;
+                colorModeToolStripMenuItem.Checked = false;
+                followStripMenuToolStripMenuItem.Checked = false;
+            }
+            else if (colorModeToolStripMenuItem.Checked == true)
+            {
+                darkModeToolStripMenuItem.Checked = false;
+                lightModeToolStripMenuItem.Checked = false;
+                blueModeToolStripMenuItem.Checked = false;
+                oliveModeToolStripMenuItem.Checked = false;
+                pinkModeToolStripMenuItem.Checked = false;
+                colorModeToolStripMenuItem.Checked = true;
+                followStripMenuToolStripMenuItem.Checked = false;
+            }
+            else if (followStripMenuToolStripMenuItem.Checked == true)
+            {
+                darkModeToolStripMenuItem.Checked = false;
+                lightModeToolStripMenuItem.Checked = false;
+                blueModeToolStripMenuItem.Checked = false;
+                oliveModeToolStripMenuItem.Checked = false;
+                pinkModeToolStripMenuItem.Checked = false;
+                colorModeToolStripMenuItem.Checked = false;
+                followStripMenuToolStripMenuItem.Checked = true;
+            }
+
+            lightModeToolStripMenuItem1.Checked = Properties.Settings.Default.lightStrip;
+            darkModeToolStripMenuItem1.Checked = Properties.Settings.Default.darkStrip;
+            blueModeToolStripMenuItem1.Checked = Properties.Settings.Default.blueStrip;
+            pinkModeToolStripMenuItem1.Checked = Properties.Settings.Default.pinkStrip;
+            oliveModeToolStripMenuItem1.Checked = Properties.Settings.Default.oliveStrip;
+            colorModeToolStripMenuItem1.Checked = Properties.Settings.Default.colorStrip;
+            followTextBoxToolStripMenuItem.Checked = Properties.Settings.Default.followTextBox;
+
+            if (lightModeToolStripMenuItem1.Checked == true)
+            {
+                darkModeToolStripMenuItem1.Checked = false;
+                lightModeToolStripMenuItem1.Checked = true;
+                blueModeToolStripMenuItem1.Checked = false;
+                oliveModeToolStripMenuItem1.Checked = false;
+                pinkModeToolStripMenuItem1.Checked = false;
+                colorModeToolStripMenuItem1.Checked = false;
+                followTextBoxToolStripMenuItem.Checked = false;
+            }
+            else if (darkModeToolStripMenuItem1.Checked == true)
+            {
+                darkModeToolStripMenuItem1.Checked = true;
+                lightModeToolStripMenuItem1.Checked = false;
+                blueModeToolStripMenuItem1.Checked = false;
+                oliveModeToolStripMenuItem1.Checked = false;
+                pinkModeToolStripMenuItem1.Checked = false;
+                colorModeToolStripMenuItem1.Checked = false;
+                followTextBoxToolStripMenuItem.Checked = false;
+            }
+            else if (blueModeToolStripMenuItem1.Checked == true)
+            {
+                darkModeToolStripMenuItem1.Checked = false;
+                lightModeToolStripMenuItem1.Checked = false;
+                blueModeToolStripMenuItem1.Checked = true;
+                oliveModeToolStripMenuItem1.Checked = false;
+                pinkModeToolStripMenuItem1.Checked = false;
+                colorModeToolStripMenuItem1.Checked = false;
+                followTextBoxToolStripMenuItem.Checked = false;
+            }
+            else if (pinkModeToolStripMenuItem1.Checked == true)
+            {
+                darkModeToolStripMenuItem1.Checked = false;
+                lightModeToolStripMenuItem1.Checked = false;
+                blueModeToolStripMenuItem1.Checked = false;
+                oliveModeToolStripMenuItem1.Checked = false;
+                pinkModeToolStripMenuItem1.Checked = true;
+                colorModeToolStripMenuItem1.Checked = false;
+                followTextBoxToolStripMenuItem.Checked = false;
+            }
+            else if (oliveModeToolStripMenuItem1.Checked == true)
+            {
+                darkModeToolStripMenuItem1.Checked = false;
+                lightModeToolStripMenuItem1.Checked = false;
+                blueModeToolStripMenuItem1.Checked = false;
+                oliveModeToolStripMenuItem1.Checked = true;
+                pinkModeToolStripMenuItem1.Checked = false;
+                colorModeToolStripMenuItem1.Checked = false;
+                followTextBoxToolStripMenuItem.Checked = false;
+            }
+            else if (colorModeToolStripMenuItem1.Checked == true)
+            {
+                darkModeToolStripMenuItem1.Checked = false;
+                lightModeToolStripMenuItem1.Checked = false;
+                blueModeToolStripMenuItem1.Checked = false;
+                oliveModeToolStripMenuItem1.Checked = false;
+                pinkModeToolStripMenuItem1.Checked = false;
+                colorModeToolStripMenuItem1.Checked = true;
+                followTextBoxToolStripMenuItem.Checked = false;
+            }
+            else if (followTextBoxToolStripMenuItem.Checked == true)
+            {
+                darkModeToolStripMenuItem1.Checked = false;
+                lightModeToolStripMenuItem1.Checked = false;
+                blueModeToolStripMenuItem1.Checked = false;
+                oliveModeToolStripMenuItem1.Checked = false;
+                pinkModeToolStripMenuItem1.Checked = false;
+                colorModeToolStripMenuItem1.Checked = false;
+                followTextBoxToolStripMenuItem.Checked = true;
+            }
+
+
         }
 
         public void SaveSettings()
@@ -69,6 +315,38 @@ namespace Notepad
             Properties.Settings.Default.menuStripMode = menuStrip1.BackColor;
             Properties.Settings.Default.menuStripFont = menuStrip1.Font;
             Properties.Settings.Default.menuStripColor = menuStrip1.ForeColor;
+            Properties.Settings.Default.scrollBars = textBox.ScrollBars;
+            Properties.Settings.Default.statusBarFont = statusBar1.Font;
+            Properties.Settings.Default.statusBarColumns = statusBarPanel1.BorderStyle;
+            Properties.Settings.Default.statusBarColumns = statusBarPanel2.BorderStyle;
+            Properties.Settings.Default.statusBarColumns = statusBarPanel3.BorderStyle;
+
+            Properties.Settings.Default.twelveHours = hourClockToolStripMenuItem.Checked;
+            Properties.Settings.Default.twentyFourHours = hourClockToolStripMenuItem1.Checked;
+            Properties.Settings.Default.timerOff = offToolStripMenuItem.Checked;
+
+            Properties.Settings.Default.statusBarWordCounter = onToolStripMenuItem.Checked;
+
+            Properties.Settings.Default.statusBarCharCounter = onToolStripMenuItem1.Checked;
+
+            Properties.Settings.Default.columnOn = onToolStripMenuItem3.Checked;
+
+            Properties.Settings.Default.lightMode = lightModeToolStripMenuItem.Checked;
+            Properties.Settings.Default.darkMode = darkModeToolStripMenuItem.Checked;
+            Properties.Settings.Default.blueMode = blueModeToolStripMenuItem.Checked;
+            Properties.Settings.Default.pinkMode = pinkModeToolStripMenuItem.Checked;
+            Properties.Settings.Default.oliveMode = oliveModeToolStripMenuItem.Checked;
+            Properties.Settings.Default.colorMode = colorModeToolStripMenuItem.Checked;
+            Properties.Settings.Default.followStrip = followStripMenuToolStripMenuItem.Checked;
+
+            Properties.Settings.Default.lightStrip = lightModeToolStripMenuItem1.Checked;
+            Properties.Settings.Default.darkStrip = darkModeToolStripMenuItem1.Checked;
+            Properties.Settings.Default.blueStrip = blueModeToolStripMenuItem1.Checked;
+            Properties.Settings.Default.pinkStrip = pinkModeToolStripMenuItem1.Checked;
+            Properties.Settings.Default.oliveStrip = oliveModeToolStripMenuItem1.Checked;
+            Properties.Settings.Default.colorStrip = colorModeToolStripMenuItem1.Checked;
+            Properties.Settings.Default.followTextBox = followTextBoxToolStripMenuItem.Checked;
+
             Properties.Settings.Default.Save();
         }
 
@@ -774,7 +1052,7 @@ namespace Notepad
 
             if (d < 0)
             {
-                    MessageBox.Show("No results found.", "Find", MessageBoxButtons.OK);
+                MessageBox.Show("No results found.", "Find", MessageBoxButtons.OK);
             }
         }
 
