@@ -145,6 +145,48 @@ namespace Notepad
                 offToolStripMenuItem4.Checked = true;
             }
 
+            verticalToolStripMenuItem.Checked = Properties.Settings.Default.verticalScroll;
+            horizontalToolStripMenuItem.Checked = Properties.Settings.Default.horizontalScroll;
+            bothToolStripMenuItem.Checked = Properties.Settings.Default.bothScroll;
+            noneToolStripMenuItem.Checked = Properties.Settings.Default.noneScroll;
+
+            if (verticalToolStripMenuItem.Checked == true)
+            {
+                noneToolStripMenuItem.Checked = false;
+                bothToolStripMenuItem.Checked = false;
+                horizontalToolStripMenuItem.Checked = false;
+                verticalToolStripMenuItem.Checked = true;
+
+                textBox.WordWrap = true;
+            }
+            else if (horizontalToolStripMenuItem.Checked == true)
+            {
+                noneToolStripMenuItem.Checked = false;
+                bothToolStripMenuItem.Checked = false;
+                horizontalToolStripMenuItem.Checked = true;
+                verticalToolStripMenuItem.Checked = false;
+
+                textBox.WordWrap = false;
+            }
+            else if (bothToolStripMenuItem.Checked == true)
+            {
+                noneToolStripMenuItem.Checked = false;
+                bothToolStripMenuItem.Checked = true;
+                horizontalToolStripMenuItem.Checked = false;
+                verticalToolStripMenuItem.Checked = false;
+
+                textBox.WordWrap = false;
+            }
+            else if (noneToolStripMenuItem.Checked == true)
+            {
+                noneToolStripMenuItem.Checked = true;
+                bothToolStripMenuItem.Checked = false;
+                horizontalToolStripMenuItem.Checked = false;
+                verticalToolStripMenuItem.Checked = false;
+
+                textBox.WordWrap = true;
+            }
+
             lightModeToolStripMenuItem.Checked = Properties.Settings.Default.lightMode;
             darkModeToolStripMenuItem.Checked = Properties.Settings.Default.darkMode;
             blueModeToolStripMenuItem.Checked = Properties.Settings.Default.blueMode;
@@ -330,6 +372,11 @@ namespace Notepad
             Properties.Settings.Default.statusBarCharCounter = onToolStripMenuItem1.Checked;
 
             Properties.Settings.Default.columnOn = onToolStripMenuItem3.Checked;
+
+            Properties.Settings.Default.verticalScroll = verticalToolStripMenuItem.Checked;
+            Properties.Settings.Default.horizontalScroll = horizontalToolStripMenuItem.Checked;
+            Properties.Settings.Default.bothScroll = bothToolStripMenuItem.Checked;
+            Properties.Settings.Default.noneScroll = noneToolStripMenuItem.Checked;
 
             Properties.Settings.Default.lightMode = lightModeToolStripMenuItem.Checked;
             Properties.Settings.Default.darkMode = darkModeToolStripMenuItem.Checked;
