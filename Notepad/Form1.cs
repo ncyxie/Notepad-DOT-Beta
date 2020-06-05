@@ -13,9 +13,12 @@ namespace Notepad
         public static string FindText = "";
         public static Boolean MatchCase;
         public static string ReplaceText = "";
+        int c;
         int d;
 
         public frmAbout frmabout;
+        public Find find;
+        public Replace replace;
         string path;
         public Notepad()
         {
@@ -1131,7 +1134,7 @@ namespace Notepad
 
             if (d < 0)
             {
-                MessageBox.Show("No results found.", "Find", MessageBoxButtons.OK);
+                MessageBox.Show("No results found", "Find", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -1151,8 +1154,9 @@ namespace Notepad
 
                 if (d < 0)
                 {
-                    MessageBox.Show("No results found.", "Find", MessageBoxButtons.OK);
+                    MessageBox.Show("No results found", "Find", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+
             }
         }
 
@@ -1161,8 +1165,18 @@ namespace Notepad
             Replace r = new Replace();
             r.ShowDialog();
 
-            textBox.Find(FindText);
-            textBox.SelectedText = ReplaceText;
+
+            if (MatchCase == true)
+            {
+                c = textBox.Find(FindText, RichTextBoxFinds.MatchCase);
+                textBox.SelectedText = ReplaceText;
+            }
+            else
+            {
+                c = textBox.Find(FindText, RichTextBoxFinds.None);
+                textBox.SelectedText = ReplaceText;
+            }
+
         }
     }
 }

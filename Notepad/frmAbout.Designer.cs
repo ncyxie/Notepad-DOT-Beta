@@ -74,10 +74,9 @@
             this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.label1.Location = new System.Drawing.Point(13, 140);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(153, 64);
+            this.label1.Size = new System.Drawing.Size(152, 64);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Version: 1.1.0 Stable \r\nMade by ncyxie.\r\nThanks to XeZrunner.\r\nThanks to zero9178" +
-    ".";
+            this.label1.Text = "Version: 3.0.0 Beta\r\nMade by ncyxie.\r\nThanks to XeZrunner.\r\nThanks to zero9178.";
             // 
             // pictureBox1
             // 

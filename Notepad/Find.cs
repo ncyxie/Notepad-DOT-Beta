@@ -41,7 +41,6 @@ namespace Notepad
             Notepad.FindText = "";
             this.Close();
         }
-
     }
 
 }
