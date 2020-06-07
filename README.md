@@ -2,7 +2,7 @@
 
 ## Latest News
 
-**v2.0.0 CUSTOMISATION BETA RELEASE WILL BE OUT AT MONDAY!**
+**v3.0.0 CUSTOMISATION BETA RELEASE WILL BE OUT AT MONDAY!**
 
 **https://github.com/ncyxie/Notepad-DOT-Beta/releases**
 
