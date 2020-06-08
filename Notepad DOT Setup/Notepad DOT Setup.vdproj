@@ -4,9 +4,9 @@
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
 "ProjectName" = "8:Notepad DOT Setup"
-"LanguageId" = "3:1033"
+"LanguageId" = "3:0"
 "CodePage" = "3:1252"
-"UILanguageId" = "3:1033"
+"UILanguageId" = "3:0"
 "SccProjectName" = "8:"
 "SccLocalPath" = "8:"
 "SccAuxPath" = "8:"
@@ -27,7 +27,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_EAA3FA7272BC3A7F99370B7F71A4BB14"
+        "MsmKey" = "8:_A7EE07E62BFEEFDFD8008FA7EDBEEC11"
+        "OwnerKey" = "8:_3035230B4E8E44C6BBFFF280279A32FB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F384E35B2FEBB87849DAC8A3D5F717D6"
         "OwnerKey" = "8:_3035230B4E8E44C6BBFFF280279A32FB"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -40,7 +46,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EAA3FA7272BC3A7F99370B7F71A4BB14"
+        "OwnerKey" = "8:_A7EE07E62BFEEFDFD8008FA7EDBEEC11"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_F384E35B2FEBB87849DAC8A3D5F717D6"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -130,9 +142,9 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.7.2"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.8"
                 "AllowLaterVersions" = "11:FALSE"
-                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=863262"
+                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=2085155"
                 }
             }
         }
@@ -158,14 +170,45 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EAA3FA7272BC3A7F99370B7F71A4BB14"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A7EE07E62BFEEFDFD8008FA7EDBEEC11"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_A7EE07E62BFEEFDFD8008FA7EDBEEC11"
+                    {
+                    "Name" = "8:Bunifu_UI_v1.52.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Bunifu_UI_v1.52.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_CEE0A044EE6C4080AD918F9961881CD8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F384E35B2FEBB87849DAC8A3D5F717D6"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_EAA3FA7272BC3A7F99370B7F71A4BB14"
+                    "_F384E35B2FEBB87849DAC8A3D5F717D6"
                     {
                     "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
@@ -219,7 +262,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_CEE0A044EE6C4080AD918F9961881CD8"
             {
-            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -238,36 +281,36 @@
         }
         "MsiBootstrapper"
         {
-        "LangId" = "3:1033"
+        "LangId" = "3:0"
         "RequiresElevation" = "11:FALSE"
         }
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Notepad DOT"
-        "ProductCode" = "8:{A70F4E81-0386-4C28-80C0-923051402B1C}"
-        "PackageCode" = "8:{621FEADE-9158-4491-8272-FFE66808A1B0}"
+        "ProductName" = "8:Notepad DOT Beta"
+        "ProductCode" = "8:{A6E0454F-09F1-415F-AFF7-3DF9621C3D25}"
+        "PackageCode" = "8:{E3B37AC4-3879-4B63-969C-C56B2349A3A8}"
         "UpgradeCode" = "8:{8752C33A-38BE-467E-8AEA-6146DF8B2A4B}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.1.0"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:3.0.0"
         "Manufacturer" = "8:ncyxie"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Notepad DOT Setup"
+        "Title" = "8:Notepad DOT Beta Setup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:ncyxie"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:Installer for Notepad DOT 1.1.0 Stable version."
+        "ARPCOMMENTS" = "8:Installer for Notepad DOT 3.0.0 Beta version."
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:1"
+        "TargetPlatform" = "3:0"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -795,7 +838,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_3035230B4E8E44C6BBFFF280279A32FB"
             {
-            "SourcePath" = "8:..\\Notepad\\obj\\Release\\Notepad DOT.exe"
+            "SourcePath" = "8:..\\Notepad\\obj\\Debug\\Notepad DOT.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_CEE0A044EE6C4080AD918F9961881CD8"
