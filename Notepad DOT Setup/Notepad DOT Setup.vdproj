@@ -82,10 +82,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.8"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    "Name" = "8:Microsoft .NET Framework 4.8 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.8"
                     }
                 }
             }
@@ -144,7 +144,7 @@
                 "Message" = "8:[VSDNETMSG]"
                 "FrameworkVersion" = "8:.NETFramework,Version=v4.8"
                 "AllowLaterVersions" = "11:FALSE"
-                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=2085155"
+                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=863262"
                 }
             }
         }
@@ -289,7 +289,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Notepad DOT Beta"
         "ProductCode" = "8:{A6E0454F-09F1-415F-AFF7-3DF9621C3D25}"
-        "PackageCode" = "8:{E3B37AC4-3879-4B63-969C-C56B2349A3A8}"
+        "PackageCode" = "8:{7EF88D98-B6C9-4183-8FC2-2A03908F0C41}"
         "UpgradeCode" = "8:{8752C33A-38BE-467E-8AEA-6146DF8B2A4B}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
