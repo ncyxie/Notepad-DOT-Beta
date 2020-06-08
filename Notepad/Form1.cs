@@ -13,10 +13,10 @@ namespace Notepad
         public static string FindText = "";
         public static Boolean MatchCase;
         public static string ReplaceText = "";
-        int c;
         int d;
 
         public frmAbout frmabout;
+        public Discord discord;
         public Find find;
         public Replace replace;
         string path;
@@ -613,6 +613,11 @@ namespace Notepad
             textBox.Cut();
         }
 
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox.SelectedText = string.Empty;
+        }
+
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
             textBox.SelectAll();
@@ -652,6 +657,12 @@ namespace Notepad
         private void telegramSupportToolStripMenuItem_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://t.me/ncyxie");
+        }
+
+        private void discordSupportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Discord r = new Discord();
+            r.ShowDialog();
         }
 
         private void GithubRepoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1132,10 +1143,6 @@ namespace Notepad
                 d = textBox.Find(FindText);
             }
 
-            if (d < 0)
-            {
-                MessageBox.Show("No results found", "Find", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
         }
 
         private void findNextToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1152,12 +1159,8 @@ namespace Notepad
                     d = textBox.Find(FindText, (d + 1), textBox.Text.Length, RichTextBoxFinds.None);
                 }
 
-                if (d < 0)
-                {
-                    MessageBox.Show("No results found", "Find", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-
             }
+
         }
 
         private void replaceToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1165,19 +1168,33 @@ namespace Notepad
             Replace r = new Replace();
             r.ShowDialog();
 
-
             if (MatchCase == true)
             {
-                c = textBox.Find(FindText, RichTextBoxFinds.MatchCase);
+                d = textBox.Find(FindText, RichTextBoxFinds.MatchCase);
                 textBox.SelectedText = ReplaceText;
             }
             else
             {
-                c = textBox.Find(FindText, RichTextBoxFinds.None);
+                d = textBox.Find(FindText, RichTextBoxFinds.None);
+                textBox.SelectedText = ReplaceText;
+            }
+        }
+
+        private void replaceNextToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MatchCase == true)
+            {
+                d = textBox.Find(FindText, (d + 1), textBox.Text.Length, RichTextBoxFinds.MatchCase);
+                textBox.SelectedText = ReplaceText;
+            }
+            else
+            {
+                d = textBox.Find(FindText, (d + 1), textBox.Text.Length, RichTextBoxFinds.None);
                 textBox.SelectedText = ReplaceText;
             }
 
         }
+
     }
 }
 

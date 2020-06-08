@@ -57,6 +57,7 @@
             this.findToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.findNextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.replaceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.replaceNextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
             this.searchWithGoogleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchWithBingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -119,6 +120,8 @@
             this.statusBarPanel3 = new System.Windows.Forms.StatusBarPanel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.textBox = new System.Windows.Forms.RichTextBox();
+            this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.discordSupportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel2)).BeginInit();
@@ -143,7 +146,7 @@
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newToolStripMenuItem.Text = "&New";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
@@ -151,7 +154,7 @@
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.openToolStripMenuItem.Text = "&Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -159,34 +162,34 @@
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveToolStripMenuItem.Text = "&Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveAsToolStripMenuItem.Text = "&Save As";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // printToolStripMenuItem
             // 
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.printToolStripMenuItem.Text = "&Print";
             this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(142, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -194,6 +197,7 @@
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.telegramSupportToolStripMenuItem,
+            this.discordSupportToolStripMenuItem,
             this.GithubRepoToolStripMenuItem,
             this.gitHubReleasesToolStripMenuItem,
             this.aboutToolStripMenuItem});
@@ -253,6 +257,7 @@
             this.copyToolStripMenuItem,
             this.pasteToolStripMenuItem,
             this.cutToolStripMenuItem,
+            this.deleteToolStripMenuItem,
             this.toolStripMenuItem3,
             this.selectAllToolStripMenuItem,
             this.dateTimeToolStripMenuItem,
@@ -260,6 +265,7 @@
             this.findToolStripMenuItem,
             this.findNextToolStripMenuItem,
             this.replaceToolStripMenuItem,
+            this.replaceNextToolStripMenuItem,
             this.toolStripMenuItem5,
             this.searchWithGoogleToolStripMenuItem,
             this.searchWithBingToolStripMenuItem,
@@ -345,6 +351,13 @@
             this.replaceToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
             this.replaceToolStripMenuItem.Text = "&Replace";
             this.replaceToolStripMenuItem.Click += new System.EventHandler(this.replaceToolStripMenuItem_Click);
+            // 
+            // replaceNextToolStripMenuItem
+            // 
+            this.replaceNextToolStripMenuItem.Name = "replaceNextToolStripMenuItem";
+            this.replaceNextToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.replaceNextToolStripMenuItem.Text = "&Replace Next";
+            this.replaceNextToolStripMenuItem.Click += new System.EventHandler(this.replaceNextToolStripMenuItem_Click);
             // 
             // toolStripMenuItem5
             // 
@@ -828,6 +841,20 @@
             this.textBox.Text = "";
             this.textBox.WordWrap = false;
             // 
+            // deleteToolStripMenuItem
+            // 
+            this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.deleteToolStripMenuItem.Text = "&Delete";
+            this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
+            // 
+            // discordSupportToolStripMenuItem
+            // 
+            this.discordSupportToolStripMenuItem.Name = "discordSupportToolStripMenuItem";
+            this.discordSupportToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.discordSupportToolStripMenuItem.Text = "&Discord Support";
+            this.discordSupportToolStripMenuItem.Click += new System.EventHandler(this.discordSupportToolStripMenuItem_Click);
+            // 
             // Notepad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -943,6 +970,9 @@
         private System.Windows.Forms.ToolStripMenuItem columnsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem onToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem offToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem replaceNextToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem discordSupportToolStripMenuItem;
     }
 }
 

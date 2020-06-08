@@ -64,9 +64,9 @@
             this.lblProductVersion.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.lblProductVersion.Location = new System.Drawing.Point(12, 51);
             this.lblProductVersion.Name = "lblProductVersion";
-            this.lblProductVersion.Size = new System.Drawing.Size(148, 80);
+            this.lblProductVersion.Size = new System.Drawing.Size(137, 80);
             this.lblProductVersion.TabIndex = 2;
-            this.lblProductVersion.Text = "A open source,\r\nlightweight,\r\nvery simple text \r\neditor. \r\n";
+            this.lblProductVersion.Text = "A open source,\r\nlightweight and\r\ncustomisable \r\ntext editor. \r\n";
             // 
             // label1
             // 

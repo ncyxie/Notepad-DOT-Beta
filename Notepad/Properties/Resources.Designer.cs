@@ -63,6 +63,26 @@ namespace Notepad.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ncyxie_avatar {
+            get {
+                object obj = ResourceManager.GetObject("ncyxie_avatar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ncyxie_avatar_59x59 {
+            get {
+                object obj = ResourceManager.GetObject("ncyxie_avatar_59x59", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Notepad_DOT_134x196 {
             get {
                 object obj = ResourceManager.GetObject("Notepad-DOT-134x196", resourceCulture);

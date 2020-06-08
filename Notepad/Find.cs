@@ -9,6 +9,7 @@ namespace Notepad
         {
             InitializeComponent();
         }
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             if (textBox1.Text.Length > 0)
@@ -41,6 +42,7 @@ namespace Notepad
             Notepad.FindText = "";
             this.Close();
         }
+
     }
 
 }
