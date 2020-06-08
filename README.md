@@ -2,7 +2,11 @@
 
 ## Latest News
 
-**NEW RELEASE IS ALMOST DONE FOR TEST! :)**
+**v3.0.0 CUSTOMISATION BETA RELEASE WILL BE OUT AT MONDAY!**
+
+**https://github.com/ncyxie/Notepad-DOT-Beta/releases**
+
+**2020/06/08, mark your calendars 😂**
 
 ## Introduction
 
@@ -39,10 +43,9 @@ strip menu above, or click on blue **Issues** text.
 
 Friend recommended me to do it, and it is fun to mess up with files.
 
-2. **Why Beta versions has only portable versions?**
+2. **Can I "kang" a little of this Notepad code?**
 
-Because it is more convenient to just compile notepad and paste it here.
-Stable has setup and portable file for sure.
+Lmao, sure. This is why it is open-source. Do not hesitate, make it better :).
 
 3. **Does this Notepad works with Mac or Linux?**
 
