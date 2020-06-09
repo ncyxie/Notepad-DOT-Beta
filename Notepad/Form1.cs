@@ -667,7 +667,7 @@ namespace Notepad
 
         private void GithubRepoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/ncyxie/Notepad-Dot");
+            System.Diagnostics.Process.Start("https://github.com/ncyxie/Notepad-DOT-Beta");
         }
 
         private void searchWithGoogleToolStripMenuItem_Click(object sender, EventArgs e)
@@ -802,7 +802,7 @@ namespace Notepad
 
         private void gitHubReleasesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/ncyxie/Notepad-Dot/releases");
+            System.Diagnostics.Process.Start("https://github.com/ncyxie/Notepad-DOT-Beta/releases");
         }
 
         private void timer1_Tick(object sender, EventArgs e)

@@ -27,12 +27,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A7EE07E62BFEEFDFD8008FA7EDBEEC11"
-        "OwnerKey" = "8:_3035230B4E8E44C6BBFFF280279A32FB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_F384E35B2FEBB87849DAC8A3D5F717D6"
         "OwnerKey" = "8:_3035230B4E8E44C6BBFFF280279A32FB"
         "MsmSig" = "8:_UNDEFINED"
@@ -41,12 +35,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_3035230B4E8E44C6BBFFF280279A32FB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A7EE07E62BFEEFDFD8008FA7EDBEEC11"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -114,10 +102,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.8"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    "Name" = "8:Microsoft .NET Framework 4.8 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.8"
                     }
                 }
             }
@@ -168,37 +156,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A7EE07E62BFEEFDFD8008FA7EDBEEC11"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_A7EE07E62BFEEFDFD8008FA7EDBEEC11"
-                    {
-                    "Name" = "8:Bunifu_UI_v1.52.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Bunifu_UI_v1.52.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_CEE0A044EE6C4080AD918F9961881CD8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F384E35B2FEBB87849DAC8A3D5F717D6"
@@ -262,7 +219,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_CEE0A044EE6C4080AD918F9961881CD8"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -289,7 +246,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Notepad DOT Beta"
         "ProductCode" = "8:{A6E0454F-09F1-415F-AFF7-3DF9621C3D25}"
-        "PackageCode" = "8:{7EF88D98-B6C9-4183-8FC2-2A03908F0C41}"
+        "PackageCode" = "8:{1EFEF080-0F6A-4D8A-BBA6-572EF64920DE}"
         "UpgradeCode" = "8:{8752C33A-38BE-467E-8AEA-6146DF8B2A4B}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -310,7 +267,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -838,7 +795,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_3035230B4E8E44C6BBFFF280279A32FB"
             {
-            "SourcePath" = "8:..\\Notepad\\obj\\Debug\\Notepad DOT.exe"
+            "SourcePath" = "8:..\\Notepad\\obj\\Release\\Notepad DOT.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_CEE0A044EE6C4080AD918F9961881CD8"
