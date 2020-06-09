@@ -6,7 +6,7 @@
 
 **https://github.com/ncyxie/Notepad-DOT-Beta/releases**
 
-**I am also considering release v3.0.1-Beta version after I will fix most of Find and Replace function issues**
+**I am also considering release v3.0.1-Beta version after I will fix most of Find and Replace function issues.**
 
 ## Introduction
 
