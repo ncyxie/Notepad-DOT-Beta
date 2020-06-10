@@ -8,6 +8,8 @@
 
 **I am also considering release v3.0.1-Beta version after I will fix most of Find and Replace function issues.**
 
+**Feel free to contact with me on Telegram or Discord to report bugs, suggest new notepad functions.**
+
 ## Introduction
 
 **Notepad DOT** is an open source, lightweight and customisable text editor.
