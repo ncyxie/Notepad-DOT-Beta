@@ -8,7 +8,7 @@
 
 **I am also considering release v3.0.1-Beta version after I will fix most of Find and Replace function issues.**
 
-**Feel free to contact with me on Telegram or Discord to report bugs, suggest new notepad functions.**
+**Note: I am taking a break from Notepad DOT development for one week (until 2020/06/19). See you soon!**
 
 ## Introduction
 
