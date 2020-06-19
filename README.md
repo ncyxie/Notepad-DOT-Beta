@@ -6,7 +6,7 @@
 
 **https://github.com/ncyxie/Notepad-DOT-Beta/releases**
 
-
+**Note: I suspend this application updates for while. I want to improve my skills in C++, so I will do less C# programming.**
 
 ## Introduction
 
