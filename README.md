@@ -8,6 +8,8 @@
 
 **Note: I suspend this application updates for while. I want to improve my skills in C++, so I will do less C# programming.**
 
+**Another Note: Do not worry, I will be back on development soon.**
+
 ## Introduction
 
 **Notepad DOT** is an open source, lightweight and customisable text editor.
