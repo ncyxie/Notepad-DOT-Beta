@@ -8,6 +8,8 @@
 
 **Note: I am oficially back in the development of Notepad DOT.**
 
+**Another Note: I plan another huge v4.0.0 Beta update, which will contain some bug fixes, rework on some code like saving, opening file, tool strip and etc. Of course it will take some time, so please be calm and wait.**
+
 ## Introduction
 
 **Notepad DOT** is an open source, lightweight and customisable text editor.
