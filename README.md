@@ -6,9 +6,9 @@
 
 **https://github.com/ncyxie/Notepad-DOT-Beta/releases**
 
-**Note: I am oficially back in the development of Notepad DOT.**
+**Note: I plan another big v3.1.0 Beta update, which will contain some bug fixes, rework on some code like saving, opening file, tool strip and etc. Of course it will take some time, so please be calm and wait.**
 
-**Another Note: I plan another big v3.1.0 Beta update, which will contain some bug fixes, rework on some code like saving, opening file, tool strip and etc. Of course it will take some time, so please be calm and wait.**
+**Status: Reworking on Open File and Save File functions.**
 
 ## Introduction
 
