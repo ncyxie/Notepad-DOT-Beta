@@ -8,7 +8,7 @@
 
 **Note: I plan another big v3.1.0 Beta update, which will contain some bug fixes, rework on some code like saving, opening file, tool strip and etc. Of course it will take some time, so please be calm and wait.**
 
-**Status: Almost finished Open File and Save File reworked functions.**
+**Status: Improving overall code.**
 
 ## Introduction
 
