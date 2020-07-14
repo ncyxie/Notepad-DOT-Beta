@@ -2,13 +2,11 @@
 
 ## Latest News
 
-**v3.0.0 CUSTOMISATION BETA RELEASE IS AVAILABLE NOW!**
+**Unfortunately, I decided to discontinue this application development for a while. Do not worry, I'll be back.
+I am busy irl, and I also need to work on other projects too. And I lost motivation of developing this notepad. But I hope I will get motivation 
+to continue this notepad development soon. I may focus and develop new applications like video players, music players or something like that.
+Peace! ✌️
 
-**https://github.com/ncyxie/Notepad-DOT-Beta/releases**
-
-**Note: I plan another big v3.1.0 Beta update, which will contain some bug fixes, rework on some code like saving, opening file, tool strip and etc. Of course it will take some time, so please be calm and wait.**
-
-**Status: Learning programming (creating private test applications).**
 
 ## Introduction
 
