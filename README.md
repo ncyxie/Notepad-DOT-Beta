@@ -5,7 +5,7 @@
 **Unfortunately, I decided to discontinue this application development for a while. Do not worry, I'll be back.
 I am busy irl, and I also need to work on other projects too. And I lost motivation of developing this notepad. But I hope I will get motivation 
 to continue this notepad development soon. I may focus and develop new applications like video players, music players or something like that.
-Peace! ✌️
+Peace! ✌️**
 
 
 ## Introduction
