@@ -7,7 +7,7 @@ I am busy irl, and I also need to work on other projects too. And I lost motivat
 to continue this notepad development soon. I may focus and develop new applications like video players, music players or something like that.
 Peace! ✌️**
 
-**Oh and also, I will still try to release one more stable update for this notepad before break. Do not ask for ETA.**
+**Oh and also, I will still try to release one more stable update for this notepad before break.**
 
 ## Introduction
 
