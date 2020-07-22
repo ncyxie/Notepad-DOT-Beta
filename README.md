@@ -7,7 +7,7 @@ I am busy irl, and I also need to work on other projects too. And I lost motivat
 to continue this notepad development soon. I may focus and develop new applications like video players, music players or something like that.
 Peace! ✌️**
 
-**Note: Expect Notepad DOT Stable update soon.. :)**
+**Note: NOTEPAD DOT V2.0.0 STABLE UPDATE TOMORROW! 23/07/2020 :)**
 
 ## Introduction
 
