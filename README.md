@@ -2,12 +2,9 @@
 
 ## Latest News
 
-**Unfortunately, I decided to drop this application development for a while. Do not worry, I'll be back.
-I am busy irl, and I also need to work on other projects too. And I lost motivation of developing this notepad. But I hope I will get motivation 
-to continue this notepad development soon. I may focus and develop new applications like video players, music players or something like that.
-Peace! ✌️**
+**Two great news, NOTEPAD DOT v2.0.0-Stable is now released, and I am back at NOTEPAD DOT development. Great to the back here again. :)**
 
-**Note: NOTEPAD DOT V2.0.0 STABLE UPDATE TOMORROW! 23/07/2020 :)**
+**https://github.com/ncyxie/Notepad-DOT/releases/ << Download NOTEPAD DOT v2.0.0-Stable now!**
 
 ## Introduction
 
