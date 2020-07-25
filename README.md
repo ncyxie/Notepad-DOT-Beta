@@ -6,7 +6,7 @@
 
 **https://github.com/ncyxie/Notepad-DOT/releases/ << Download NOTEPAD DOT v2.0.0-Stable now!**
 
-Some people noticed bug with files opened from desktop (or anywhere else, but not by "Open (file)" function. Seems like I forgot to rework ***program.cs*** code. v2.0.1 hotfix update is coming out soon.
+Some people noticed bug (doesn't say filename in app topbar or doesn't save immediately) with files opened from desktop (or anywhere else, but not by "Open (file)" function). Seems like I forgot to rework ***program.cs*** code. v2.0.1 hotfix update is coming out soon.
 
 ## Introduction
 
