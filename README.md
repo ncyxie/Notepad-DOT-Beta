@@ -6,6 +6,8 @@
 
 **https://github.com/ncyxie/Notepad-DOT/releases/ << Download NOTEPAD DOT v2.0.0-Stable now!**
 
+Some people noticed bug with files opened from desktop (or anywhere else, but not by "Open (file)" function. Seems like I forgot to rework ***program.cs*** code. v2.0.1 update is coming out soon.
+
 ## Introduction
 
 **Notepad DOT** is an open source, lightweight and customisable text editor.
