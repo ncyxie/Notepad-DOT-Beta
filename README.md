@@ -24,9 +24,8 @@ Think wisely before choosing between those two. :)
 ## Screenshots
 
 <p align="center">
-<img src="https://github.com/ncyxie/Notepad-Dot/blob/master/Screenshots/Screenshot-1.png" width="280" style="max-width:100%;">
-<img src="https://github.com/ncyxie/Notepad-Dot/blob/master/Screenshots/Screenshot-2.png" width="280" style="max-width:100%;">
-<img src="https://github.com/ncyxie/Notepad-Dot/blob/master/Screenshots/Screenshot-3.png" width="280" style="max-width:100%;">
+<img src="https://github.com/ncyxie/Notepad-Dot/blob/master/Screenshots/Screenshot-1.png" width="410" style="max-width:100%;">
+<img src="https://github.com/ncyxie/Notepad-Dot/blob/master/Screenshots/Screenshot-2.png" width="410" style="max-width:100%;">
 
 ## Bug reports
 
