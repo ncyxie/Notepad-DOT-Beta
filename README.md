@@ -2,11 +2,7 @@
 
 ## Latest News
 
-**Two great news, NOTEPAD DOT v2.0.0-Stable is now released, and I am back at NOTEPAD DOT development. Great to the back here again. :)**
-
-**https://github.com/ncyxie/Notepad-DOT/releases/ << Download NOTEPAD DOT v2.0.0-Stable now!**
-
-Some people noticed bug (doesn't say filename in app topbar or doesn't save immediately) with files opened from desktop (or anywhere else, but not by "Open (file)" function). Seems like I forgot to rework ***program.cs*** code. v2.0.1 hotfix update is coming out soon.
+**UPDATE YOUR NOTEPAD DOT NOW! v2.0.1-STABLE IS OFFICIALY RELEASED!**
 
 ## Introduction
 
