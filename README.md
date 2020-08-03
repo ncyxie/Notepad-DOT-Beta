@@ -4,7 +4,7 @@
 
 **UPDATE YOUR NOTEPAD DOT NOW! v2.0.2-STABLE HOTFIX UPDATE IS OFFICIALY RELEASED!**
 
-**Spoiler: v2.1.0-Stable should come out in next 1-2 weeks with new functions (like Toolbar) and bug fixes. Stay tuned!!!**
+**Spoiler: v2.1.0-Stable should come out in next 1-2 weeks with new functions (like Toolbar) and bug fixes. Stay tuned!**
 
 ## Introduction
 
