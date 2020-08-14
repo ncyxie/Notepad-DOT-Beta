@@ -2,7 +2,7 @@
 
 ## Latest News
 
-**V2.1.1-STABLE UPDATE IS OFFICIALLY OUT NOW!**
+**V2.1.1-STABLE HOTFIX UPDATE IS OFFICIALLY OUT NOW!**
 
 ## Introduction
 
