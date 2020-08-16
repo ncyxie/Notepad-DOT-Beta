@@ -4,7 +4,7 @@
 
 **V2.1.1-STABLE HOTFIX UPDATE IS OFFICIALLY OUT NOW!**
 
-**https://github.com/ncyxie/Notepad-DOT/releases/**
+*https://github.com/ncyxie/Notepad-DOT/releases/*
 
 ## Introduction
 
