@@ -70,4 +70,3 @@ If you still do not trust me, you can compile application yourself.
 - YouTube tutorials;
 - Forums support;
 - and most importantly.. YOU!
-
