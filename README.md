@@ -36,6 +36,11 @@ Think wisely before choosing between those two. :)
 Since you are here, you just need to enter [Issues](https://github.com/ncyxie/Notepad-Dot/issues/) page in
 strip menu above, or click on blue **Issues** text.
 
+## Updates
+
+You can expect me to publish application updates at Friday, Saturday or Sunday. Normally, other days I am not publishing application updates.
+Also, notice that, before updating application, delete it and then you are good to go to install updated application version.
+
 ## FAQ
 
 1. **Why did you decided to make a notepad?**
