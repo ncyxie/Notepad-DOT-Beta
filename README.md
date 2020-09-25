@@ -10,7 +10,9 @@
 
 Feel free to submit your ideas for Notepad DOT (you can contact with me on Telegram or Discord).
 
-Thinking of v2.2.0-Stable update.. :)
+Thinking of v2.2.0-Stable [Final] update.. :(
+
+It is enough for this Notepad for right now, I don't have time and ideas for this Notepad to develop, so I am into making new projects, like Capture DOT and many more to come, so expect last Final version for Notepad DOT.
 
 ## Introduction
 
