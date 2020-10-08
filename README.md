@@ -1,6 +1,6 @@
 *Last updated: 2020/10/08*
 
-# Notepad DOT
+# Notepad DOT Beta
 
 ## Latest News
 
