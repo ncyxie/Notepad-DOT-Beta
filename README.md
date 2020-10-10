@@ -12,7 +12,7 @@ Feel free to submit your ideas for Notepad DOT (you can contact with me on Teleg
 
 v2.2.0-Stable update spoiler: Appearence Modes for Toolbar and Context Menu is coming. :)
 
-Expect Notepad DOT v2.2.0-Stable update at weekend.
+**Expect Notepad DOT v2.2.0-Stable update at weekend. (If everything goes according to plan). :D**
 
 ## Introduction
 
