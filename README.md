@@ -10,6 +10,10 @@
 
 Feel free to submit your ideas for Notepad DOT (you can contact with me on Telegram or Discord).
 
+**Some people already noticed dark mode and follow Toolbar for Context Menu doesn't save into config (each Notepad DOT open you have to reapply dark mode or follow Toolbar for Context Menu)**
+
+*Workaround: Set dark mode or any color for Text Box or Strip Menu and use follow function for Context Menu.*
+
 ## Introduction
 
 **Notepad DOT** is an open source, lightweight and customisable text editor.
