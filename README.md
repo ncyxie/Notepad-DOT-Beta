@@ -1,18 +1,14 @@
-*Last updated: 2020/10/08*
+*Last updated: 2020/10/11*
 
 # Notepad DOT Beta
 
 ## Latest News
 
-**V2.1.1-STABLE HOTFIX UPDATE IS OFFICIALLY OUT NOW!**
+**V2.2.0-STABLE FEATURE UPDATE IS OFFICIALLY OUT NOW!**
 
 > ***https://github.com/ncyxie/Notepad-DOT/releases/***
 
 Feel free to submit your ideas for Notepad DOT (you can contact with me on Telegram or Discord).
-
-v2.2.0-Stable update spoiler: Appearence Modes for Toolbar and Context Menu is coming. :)
-
-**Expect Notepad DOT v2.2.0-Stable update at weekend. (If everything goes according to plan). :D**
 
 ## Introduction
 
