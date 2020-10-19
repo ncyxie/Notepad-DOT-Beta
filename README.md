@@ -2,17 +2,17 @@
 
 # Notepad DOT Beta
 
-## Latest News
+### Latest News
 
 **V2.2.0-STABLE FEATURE UPDATE IS OFFICIALLY OUT NOW!**
 
 > ***https://github.com/ncyxie/Notepad-DOT/releases/***
 
-Feel free to submit your ideas for Notepad DOT (you can contact with me on Telegram or Discord).
-
 **Some people already noticed dark mode and follow Toolbar for Context Menu doesn't save into config (each Notepad DOT open you have to reapply dark mode or follow Toolbar for Context Menu). This issue will be fixed in next Notepad DOT v2.2.1-Stable hotfix update release.**
 
 *Workaround: Set dark mode or any color for Text Box or Strip Menu and use follow function for Context Menu.*
+
+***Note: v2.2.1-Stable update is delayed due to my upcoming exams.***
 
 ## Introduction
 
