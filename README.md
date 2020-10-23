@@ -6,7 +6,7 @@
 
 **V2.2.0-STABLE FEATURE UPDATE IS OFFICIALLY OUT NOW!**
 
-> ***https://github.com/ncyxie/Notepad-DOT/releases/***
+> *https://github.com/ncyxie/Notepad-DOT/releases/*
 
 **Some people already noticed dark mode and follow Toolbar for Context Menu doesn't save into config (each Notepad DOT open you have to reapply dark mode or follow Toolbar for Context Menu). This issue will be fixed in next Notepad DOT v2.2.1-Stable hotfix update release.**
 
