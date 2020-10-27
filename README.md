@@ -1,4 +1,4 @@
-*Last updated: 2020/10/23*
+*Last updated: 2020/10/27*
 
 # Notepad DOT Beta
 
