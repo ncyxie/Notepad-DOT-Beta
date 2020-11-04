@@ -1,12 +1,8 @@
-*Last updated: 2020/11/02*
+*Last updated: 2020/11/04*
 
 # Notepad DOT Beta
 
-## Latest News
-
-**V2.2.1-STABLE HOTFIX UPDATE IS OFFICIALLY OUT NOW!**
-
-> ***https://github.com/ncyxie/Notepad-DOT/releases/***
+## Latest Information
 
 Report application bugs by using [Issues](https://github.com/ncyxie/Notepad-Dot/issues/) page in GitHub or contacting with me on Telegram or Discord.
 
