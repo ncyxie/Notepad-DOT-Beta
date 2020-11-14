@@ -4,7 +4,7 @@
 
 ## Latest Information
 
-**Notepad DOT v2.3.0-Stable has been just released. [Download it now](https://github.com/ncyxie/Notepad-DOT/releases/tag/v2.3.0-Stable)!**
+**Notepad DOT v2.3.0-Stable has been just released. [Download it now!](https://github.com/ncyxie/Notepad-DOT/releases/tag/v2.3.0-Stable)**
 
 ## Introduction
 
