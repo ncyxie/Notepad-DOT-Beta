@@ -1,10 +1,10 @@
-*Last updated: 2020/11/12*
+*Last updated: 2020/11/14*
 
 # Notepad DOT Beta
 
 ## Latest Information
 
-**Notepad DOT v2.3.0-Stable has been just released. Download it now!**
+**Notepad DOT v2.3.0-Stable has been just released. [Download it now](https://github.com/ncyxie/Notepad-DOT/releases/tag/v2.3.0-Stable)!**
 
 ## Introduction
 
