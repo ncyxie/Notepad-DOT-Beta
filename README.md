@@ -1,10 +1,10 @@
-*Last updated: 2020/12/05*
+*Last updated: 2020/12/12*
 
 # Notepad DOT Beta
 
 ## Latest Information
 
-Need ideas for next Notepad DOT update. Suggest your ideas on [Telegram](https://t.me/ncyxie) or Discord (ncyxie#0290).
+Notepad DOT v2.4.0-Stable update is out. [Download it now.](https://github.com/ncyxie/Notepad-DOT/releases/latest)
 
 ## Introduction
 
