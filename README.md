@@ -6,8 +6,6 @@
 
 Notepad DOT v2.4.1-Stable Hotfix update have just been released. [Download it now.](https://github.com/ncyxie/Notepad-DOT/releases/tag/v2.4.1-Stable)
 
-**HAPPY NEW 2021 YEAR! :)**
-
 ## Introduction
 
 **Notepad DOT** is an open source, lightweight and customizable text editor.
