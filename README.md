@@ -36,7 +36,7 @@ Since you are here, you just need to enter [Issues](https://github.com/ncyxie/No
 ## Updates
 
 You can expect me to publish application updates at Friday, Saturday or Sunday. Normally, other days I am not publishing application updates.
-Also, notice that, before updating application, delete it and then you are good to go to install updated application version.
+Also, notice that, before updating Notepad DOT, uninstall it and then you are good to go to install updated Notepad DOT version.
 
 ## FAQ
 
