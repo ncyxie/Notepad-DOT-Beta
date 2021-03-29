@@ -4,7 +4,7 @@
 
 ## Latest Information
 
-Notepad DOT v2.6.0-Stable Rework update with many important fixes have just been released. [Download it now.](https://github.com/ncyxie/Notepad-DOT/releases/tag/v2.6.0-Stable)
+As I have moved to Linux, **I might discontinue the Notepad DOT for Windows**. I have already **started working on Notepad DOT for Linux**, so expect release in few weeks.
 
 ## Introduction
 
