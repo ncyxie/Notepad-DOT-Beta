@@ -4,7 +4,7 @@
 
 ## Latest Information
 
-As I have moved to Linux, **I might discontinue the Notepad DOT for Windows**. I have already **started working on Notepad DOT for Linux**, so expect release in few weeks.
+**Notepad DOT (based on .NET Framework) is discontinued.** I started building Notepad DOT based on Qt (C++) and it works on Linux and Windows operating systems.
 
 ## Introduction
 
