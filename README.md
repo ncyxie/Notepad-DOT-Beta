@@ -11,7 +11,7 @@
 **Notepad DOT** is an open source, lightweight and customizable text editor.
 It has all basic notepad functions and more customisation junk. 
 It is for everyday life, from newbies to advanced users. 
-Since it is open source, you can modify it and even make it better.
+As it is open source, you can modify it and even make it better.
 
 ## Download
 
@@ -33,11 +33,6 @@ Think wisely before choosing between those two. :)
 
 Since you are here, you just need to enter [Issues](https://github.com/ncyxie/Notepad-Dot/issues/) page in GitHub, or contact with me using Discord or Telegram.
 
-## Updates
-
-You can expect me to publish application updates at Friday, Saturday or Sunday. Normally, other days I am not publishing application updates.
-Also, notice that, before updating Notepad DOT, uninstall it and then you are good to go to install updated Notepad DOT version.
-
 ## FAQ
 
 1. **Why did you decided to make a notepad?**
@@ -48,10 +43,10 @@ Friend recommended me to do it, and it is fun to mess up with files.
 
 Lmao, sure. This is why it is open-source. Do not hesitate, make it better :).
 
-3. **Does this Notepad works with Mac or Linux?**
+3. **Does this Notepad runs on Linux?**
 
-Unfortunately, no. This application runs only on Windows OS (because of WinForms),
-but you are free to modify it, and make run on your desired OS.
+Unfortunately, this edition, no. This application edition runs only on Windows OS.
+Use [Notepad DOT Qt](https://github.com/ncyxie/Notepad-DOT-Qt) for Linux (or Windows) instead.
 
 4. **What are this Notepad system requirements?**
 
