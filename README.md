@@ -1,10 +1,10 @@
-*Last time information was updated: 13/05/2021*
+*Last time information was updated: 25/06/2021*
 
 # Notepad DOT Beta
 
 ## Latest Information
 
-**Notepad DOT (based on .NET Framework) is discontinued.** I started building Notepad DOT (currently Beta and has not all functions) based on Qt (C++) and it runs on Linux and Windows operating systems.
+**Notepad DOT (based on .NET Framework) is discontinued.** I started building [Notepad DOT Qt](https://github.com/ncyxie/Notepad-DOT-Qt) (currently Beta and has not all functions, compared to Notepad DOT) based on Qt (C++) and it runs on Windows and Linux operating systems.
 
 ## Introduction
 
