@@ -1,4 +1,4 @@
-*Last time information was updated: 25/06/2021*
+*Last time information was updated: 04/07/2021*
 
 # Notepad DOT Beta
 
@@ -8,7 +8,7 @@
 
 ## Introduction
 
-**Notepad DOT** is an open source, lightweight and customizable text editor.
+**Notepad DOT** is an open-source, lightweight and customizable text editor.
 It has all basic notepad functions and more customisation junk. 
 It is for everyday life, from newbies to advanced users. 
 As it is open source, you can modify it and even make it better.
